@@ -1,16 +1,15 @@
 package main;
 
 import (
-    "encoding/json"
+ //   "encoding/json"
     "fmt"
-    "io/ioutil"
-    "os"
-	"utils/draw"
-	"utils/ssh"
+  //  "io/ioutil"
+  //  "os"
+	"utils"
 )
 
 func main() {
 	fmt.Println("");
-	draw.init();
-	ssh.init();
+	utils.DrawInit();
+	utils.SshInit();
 }

@@ -1,9 +1,9 @@
-package draw;
+package utils;
 
 import (
     "fmt"
 )
 
-func init() {
+func SshInit() {
 	fmt.Println("draw init");
 }
