@@ -4,6 +4,6 @@ import (
     "fmt"
 )
 
-func DrawInit() {
+func SshInit() {
 	fmt.Println("ssh init");
 }
