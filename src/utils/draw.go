@@ -18,3 +18,19 @@ func DrawInit(frame) {
 func (a DrawItem)run() {
 	
 }
+
+func (a DrawItem)next() {
+	
+}
+
+func (a DrawItem)prev() {
+	
+}
+
+func (a DrawItem)move(pageNumber) {
+	
+}
+
+func (a DrawItem)parser(pageNumber) {
+	
+}

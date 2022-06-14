@@ -10,6 +10,6 @@ import (
 
 func main() {
 	fmt.Println("");
-	utils.DrawInit();
-	utils.SshInit();
+	drawClient := utils.DrawInit();
+	sshClient := utils.SshInit();
 }
